@@ -1,13 +1,13 @@
-all: mystat myls mytail mysearch
+all: stat ls tail search
 
-mystat: mystat-adams.c
-	gcc -o mystat mystat-adams.c
+stat: stat.c
+	gcc -o stat stat.c
 
-myls: myls-adams.c
-	gcc -o myls myls-adams.c
+ls: ls.c
+	gcc -o ls ls.c
 
-mytail: mytail-adams.c
-	gcc -o mytail mytail-adams.c
+tail: tail-.c
+	gcc -o tail tail.c
 
-mysearch: mysearch-adams.c
-	gcc -o mysearch mysearch-adams.c
+search: search.c
+	gcc -o search search.c
